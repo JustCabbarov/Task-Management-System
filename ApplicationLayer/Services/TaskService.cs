@@ -24,7 +24,8 @@ namespace Application.Services
         private readonly IGenericRepository<Notification> _notificationRepo;
         private readonly INotificationService _notification;
         private readonly IGenericRepository<TaskTransaction> _transaction;
-        public TaskService(IGenericService<TaskDTO, TaskItem> genericService, UserManager<ApplicationUser> userManager, IGenericService<TaskCommentDTO, TaskComment> taskCommentService, IGenericRepository<TaskCommentMention> commentMentionRepo, INotificationService notification, IGenericRepository<Notification> notificationRepo, IGenericRepository<TaskTransaction> transaction)
+        private readonly IUnityOfWork _unityOfWork;
+        public TaskService(IGenericService<TaskDTO, TaskItem> genericService, UserManager<ApplicationUser> userManager, IGenericService<TaskCommentDTO, TaskComment> taskCommentService, IGenericRepository<TaskCommentMention> commentMentionRepo, INotificationService notification, IGenericRepository<Notification> notificationRepo, IGenericRepository<TaskTransaction> transaction, IUnityOfWork unityOfWork)
         {
             _genericService = genericService;
             _userManager = userManager;
@@ -33,8 +34,10 @@ namespace Application.Services
             _notification = notification;
             _notificationRepo = notificationRepo;
             _transaction = transaction;
+            _unityOfWork = unityOfWork;
         }
 
+       
         public async Task AddComment(int taskId, string userId, string comment)
         {
             var task = await _genericService.GetByIdAsync(taskId);
@@ -89,7 +92,74 @@ namespace Application.Services
            
             await _notification.NotifyMentionsAsync(userMessages);
         }
-        
+
+      
+        public async Task   AcceptTask(int taskId , string userId)
+        {
+            var task = await _genericService.GetByIdAsync(taskId);
+            if (task == null)
+                throw new Exception("Task not found");
+            if (task.AssignedToUserId != userId)
+                throw new Exception("You are not assigned to this task.");
+            var DTO = new TaskDTO
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                AssignedToUserId = task.AssignedToUserId,
+                CreatedByUserId = task.CreatedByUserId,
+                Deadline = task.Deadline,
+                Difficulty = task.Difficulty,
+                Status = CurrentSituation.InProgress,
+                TaskCommentId = task.TaskCommentId,
+            };
+            await _genericService.UpdateAsync(DTO);
+            await _transaction.AddAsync(new TaskTransaction
+            {
+                TaskItemId = task.Id,
+                FromUserId = task.CreatedByUserId,
+                ToUserId = userId,
+                Comments = "Task accepted"
+            });
+
+            await _notification.AcceptTaskNotificationAsync(new TaskActionDTO { userId = task.CreatedByUserId, accepterId = task.AssignedToUserId, TaskTitle = task.Title });
+            await _unityOfWork.SaveChangesAsync();
+
+
+
+        }
+
+        public async Task RejectTask(int taskId, string userId, string reason)
+        {
+            var task = await _genericService.GetByIdAsync(taskId);
+            if (task == null)
+                throw new Exception("Task not found");
+            if (task.AssignedToUserId != userId)
+                throw new Exception("You are not assigned to this task.");
+            var DTO = new TaskDTO
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                AssignedToUserId = null,
+                CreatedByUserId = task.CreatedByUserId,
+                Deadline = task.Deadline,
+                Difficulty = task.Difficulty,
+                Status = CurrentSituation.Assigned,
+                TaskCommentId = task.TaskCommentId,
+            };
+            await _genericService.UpdateAsync(DTO);
+            await _transaction.AddAsync(new TaskTransaction
+            {
+                TaskItemId = task.Id,
+                FromUserId = task.CreatedByUserId,
+                ToUserId = userId,
+                Comments = $"Task rejected: {reason}"
+            });
+            await _notification.RejectTaskNotificarionAsync(new TaskActionDTO { userId=task.CreatedByUserId, accepterId=task.AssignedToUserId, TaskTitle=task.Title});
+            await _unityOfWork.SaveChangesAsync();
+        }
+
 
 
 
@@ -124,7 +194,7 @@ namespace Application.Services
 
             });
 
-            await _notification.NotifyTaskAssignedAsync(userId, task.Title);
+            await _notification.NotifyTaskAssignedAsync(userId, task.Title ,taskId);
         }
 
         public async Task UnAssingTaskAsync(int taskId, string userId)

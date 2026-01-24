@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
@@ -10,6 +11,7 @@ namespace Domain.Entities
         public string EmployeeId { get; set; }
         public ICollection<TaskItem> AssignedTasks { get; set; }
         public ICollection<TaskItem> CreatedTasks { get; set; }
+        [JsonIgnore]
         public ICollection<PerformancePoint> PerformancePoints { get; set; }
         public ICollection<TaskComment> TaskComments { get; set; }
         public ICollection<TaskCommentMention> TaskCommentMentions { get; set; }

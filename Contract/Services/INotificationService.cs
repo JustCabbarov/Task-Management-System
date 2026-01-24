@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Contract.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,13 @@ namespace Contract.Services
   
     public interface INotificationService
     {
-            Task NotifyTaskAssignedAsync(string userId, string taskTitle);
-         
+        Task NotifyTaskAssignedAsync(string userId, string taskTitle, int taskId);
+
+        Task RejectTaskNotificarionAsync(TaskActionDTO dto);
             Task<List<Notification>> GetMyNotificationsAsync(string userId);
             Task MarkReadAsync(int id);
             Task NotifyMentionsAsync(Dictionary<string, string> userMessages);
+        Task AcceptTaskNotificationAsync(TaskActionDTO dto);
     }
 
 }

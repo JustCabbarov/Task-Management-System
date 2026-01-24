@@ -17,3 +17,4 @@ C:\Users\Huawei\Desktop\TMS\ApplicationLayer\obj\Debug\net8.0\Application.pdb
 C:\Users\Huawei\Desktop\TMS\ApplicationLayer\obj\Debug\net8.0\ref\Application.dll
 C:\Users\Huawei\Desktop\TMS\ApplicationLayer\bin\Debug\net8.0\Persistence.dll
 C:\Users\Huawei\Desktop\TMS\ApplicationLayer\bin\Debug\net8.0\Persistence.pdb
+C:\Users\Huawei\Desktop\TMS\ApplicationLayer\obj\Debug\net8.0\Application.sourcelink.json

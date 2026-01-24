@@ -9,6 +9,7 @@ namespace Domain.Entities
         public string UserId { get; set; }
         public string Message { get; set; }
         public bool IsRead { get; set; }
+        public int? TaskId { get; set; }
         public ApplicationUser User { get; set; }
     }
 }

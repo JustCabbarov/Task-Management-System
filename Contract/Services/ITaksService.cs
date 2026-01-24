@@ -11,6 +11,9 @@ namespace Contract.Services
         public Task AddComment(int taskId, string userId, string comment);
         public Task UnAssingTaskAsync(int taskId, string userId);
         public Task AssignTaskAsync(int taskId, string userId);
+        Task AcceptTask(int taskId, string userId);
+        Task RejectTask(int taskId, string userId, string reason);
+
 
     }
 }

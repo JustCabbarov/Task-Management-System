@@ -185,3 +185,4 @@ C:\Users\Huawei\Desktop\TMS\Presentation\bin\Debug\net8.0\CommunityToolkit.HighP
 C:\Users\Huawei\Desktop\TMS\Presentation\bin\Debug\net8.0\Minio.dll
 C:\Users\Huawei\Desktop\TMS\Presentation\bin\Debug\net8.0\System.IO.Hashing.dll
 C:\Users\Huawei\Desktop\TMS\Presentation\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\Huawei\Desktop\TMS\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

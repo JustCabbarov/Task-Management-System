@@ -8,27 +8,29 @@ using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using System.Threading.Tasks;
 
-    namespace Presentation.Controllers
+namespace Presentation.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class TaskController : ControllerBase
     {
-        [Route("api/[controller]")]
-        [ApiController]
-        public class TaskController : ControllerBase
-        {
-            private readonly IGenericService<TaskDTO, TaskItem> _genericService;
-            private readonly ITaksService _taskService;
-            private readonly ITaskAttachmentService _taskAttachmentService;
+        private readonly IGenericService<TaskDTO, TaskItem> _genericService;
+        private readonly ITaksService _taskService;
+        private readonly ITaskAttachmentService _taskAttachmentService;
+        private readonly INotificationService _notificationService;
 
-            public TaskController(IGenericService<TaskDTO, TaskItem> genericService, ITaksService taskService, ITaskAttachmentService taskAttachmentService)
-            {
-                _genericService = genericService;
-                _taskService = taskService;
-                _taskAttachmentService = taskAttachmentService;
-            }
+        public TaskController(IGenericService<TaskDTO, TaskItem> genericService, ITaksService taskService, ITaskAttachmentService taskAttachmentService, INotificationService notificationService)
+        {
+            _genericService = genericService;
+            _taskService = taskService;
+            _taskAttachmentService = taskAttachmentService;
+            _notificationService = notificationService;
+        }
         [Authorize]
         [HttpPost("CreateTask")]
         public async Task<IActionResult> CreateTask([FromForm] TaskDTO taskDto, [FromForm] List<IFormFile> files)
         {
-            
+
 
             var createdTask = await _genericService.AddAsync(taskDto);
 
@@ -46,12 +48,17 @@ using System.Threading.Tasks;
                         Content = ms.ToArray()
                     };
 
-     
+
                     await _taskAttachmentService.UploadAndSaveAsync(createdTask.Id, fileDto, taskDto.CreatedByUserId);
                 });
-
                 await Task.WhenAll(uploadTasks);
             }
+            if (taskDto.AssignedToUserId != null)
+            {
+            await _notificationService.NotifyTaskAssignedAsync(taskDto.AssignedToUserId, createdTask.Title, createdTask.Id);
+
+            }
+
 
             return Ok(createdTask);
         }
@@ -59,7 +66,7 @@ using System.Threading.Tasks;
         [HttpGet("GetTask/{id}")]
         public async Task<IActionResult> GetTask(int id)
         {
-            var task = await _genericService.GetByIdAsync(id, query =>  query.Include(t => t.Attachments));
+            var task = await _genericService.GetByIdAsync(id, query => query.Include(t => t.Attachments));
             if (task == null)
             {
                 return NotFound();
@@ -70,15 +77,15 @@ using System.Threading.Tasks;
         [HttpPut("UpdateTask")]
         public async Task<IActionResult> UpdateTask([FromBody] TaskDTO taskDto)
         {
-            
-            if(taskDto == null || taskDto.Id == 0)
+
+            if (taskDto == null || taskDto.Id == 0)
             {
                 return BadRequest("Yanlış və ya boş tapşırıq məlumatı.");
             }
             var updatedTask = await _genericService.UpdateAsync(taskDto);
 
-         
-            
+
+
 
             return Ok("Dəyişikliklər  Qeyd Olundu");
         }
@@ -149,5 +156,21 @@ using System.Threading.Tasks;
             return Ok();
         }
 
+        [Authorize]
+        [HttpPost("AcceptTask")]
+        public async Task<IActionResult> AcceptTask(int taskId, string userId)
+        {
+            await _taskService.AcceptTask(taskId, userId);
+            return Ok();
+
+
+        }
+        [Authorize]
+        [HttpPost("RejectTask")]
+        public async Task<IActionResult> RejectTask(int taskId, string userId ,string reason)
+        {
+            await _taskService.RejectTask(taskId, userId,reason);
+            return Ok();
+        }
     }
 }

@@ -79,11 +79,13 @@ namespace Application.Services
 
         public async Task<List<LeaderBoardDTO>> leaderboard()
         {
+            // PerformancePoint-ləri User ilə birlikdə gətiririk
             var points = await _performancePointRepository.GetAllAsync(
                 include: q => q.Include(x => x.User)
             );
 
-            var leadership = points
+            // DTO-ya map edirik, entity-nin collections-u JSON-a getmir
+            var leaderboard = points
                 .GroupBy(x => new { x.UserId, x.User.UserName })
                 .Select(g => new LeaderBoardDTO
                 {
@@ -94,8 +96,9 @@ namespace Application.Services
                 .OrderByDescending(x => x.TotalPoints)
                 .ToList();
 
-            return leadership;
+            return leaderboard;
         }
+
 
 
 
