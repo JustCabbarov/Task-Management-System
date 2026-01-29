@@ -13,7 +13,9 @@ namespace Contract.Services
         Task<string> LoginAsync(LoginDTO loginDTO);
         Task<IdentityResult> RegisterAsync(RegisterDTO registerDTO);
         Task LogoutAsync();
+        Task AssignRole(string userId, string role);
 
-       
+
+
     }
 }

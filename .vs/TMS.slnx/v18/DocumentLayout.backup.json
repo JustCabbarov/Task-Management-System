@@ -3,12 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Huawei\\Desktop\\TMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\workgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\workgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\workgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\dtos\\workgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\workgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\workgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\workgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\workgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|c:\\users\\huawei\\desktop\\tms\\persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\services\\iworkgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\services\\iworkgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\authorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\authorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|c:\\users\\huawei\\desktop\\tms\\persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|solutionrelative:persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\services\\iauthorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\services\\iauthorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\performancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\performancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\performancepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\dtos\\performancepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\taskattachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\taskattachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\taskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\taskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\enums\\currentsituation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\services\\itaksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,46 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\taskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\taskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Migrations\\20260124095609_FixBUg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistence\\Migrations\\20260124095609_FixBUg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\taskattachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\taskattachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\performancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\performancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\profiles\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\performancepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\dtos\\performancepointdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\performancepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,24 +163,12 @@
       "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\taskcommentmention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\tasktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tasktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\entities\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\passwordresetotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\authorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\authorizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\dtos\\filedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|c:\\users\\huawei\\desktop\\tms\\contract\\services\\itaskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\services\\itaskattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -155,16 +191,8 @@
       "RelativeMoniker": "D:0:0:{F244FA82-7AB5-49B5-6C27-23AE2128D1CC}|Contract\\Contract.csproj|solutionrelative:contract\\services\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\hubs\\useridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\hubs\\useridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|c:\\users\\huawei\\desktop\\tms\\presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{26BB4B99-E4DB-8D6F-9A99-39E9DFD5E68A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -173,10 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|c:\\users\\huawei\\desktop\\tms\\applicationlayer\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B7F628-811E-C6A6-ED76-2DB4647A3876}|ApplicationLayer\\Application.csproj|solutionrelative:applicationlayer\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|c:\\users\\huawei\\desktop\\tms\\persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{727CFD8C-23B7-C991-64E7-E71059A345FA}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\huawei\\desktop\\tms\\domain\\repositories\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,85 +238,345 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\NotificationService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\NotificationService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\NotificationService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\NotificationService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAQwGIAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "WorkGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\WorkGroupController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\WorkGroupController.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\WorkGroupController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\WorkGroupController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:08:55.775Z",
+              "WhenOpened": "2026-01-29T22:08:24.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\TaskService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\TaskService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WorkGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\WorkGroupService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\WorkGroupService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\WorkGroupService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\WorkGroupService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAASwCoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:39:55.557Z",
+              "WhenOpened": "2026-01-29T21:27:48.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwEYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:44:58.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkGroupDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\WorkGroupDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTOs\\WorkGroupDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\WorkGroupDTO.cs",
+              "RelativeToolTip": "Contract\\DTOs\\WorkGroupDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:34:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\WorkGroup.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\WorkGroup.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\WorkGroup.cs",
+              "RelativeToolTip": "Domain\\Entities\\WorkGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:02:13.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Profiles\\CustomProfile.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Profiles\\CustomProfile.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Profiles\\CustomProfile.cs",
+              "RelativeToolTip": "ApplicationLayer\\Profiles\\CustomProfile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:55:06.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAQwKIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswLEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T16:40:40.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITaksService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\ITaksService.cs",
-              "RelativeDocumentMoniker": "Contract\\Services\\ITaksService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\ITaksService.cs",
-              "RelativeToolTip": "Contract\\Services\\ITaksService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T18:16:38.055Z",
+              "WhenOpened": "2026-01-19T17:03:50.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DifficultyLevel.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\DifficultyLevel.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\DifficultyLevel.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\DifficultyLevel.cs",
-              "RelativeToolTip": "Domain\\Enums\\DifficultyLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\NotificationService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T18:51:53.791Z",
+              "WhenOpened": "2026-01-19T17:08:55.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CurrentSituation.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\CurrentSituation.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\CurrentSituation.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\CurrentSituation.cs",
-              "RelativeToolTip": "Domain\\Enums\\CurrentSituation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IWorkGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IWorkGroupService.cs",
+              "RelativeDocumentMoniker": "Contract\\Services\\IWorkGroupService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IWorkGroupService.cs",
+              "RelativeToolTip": "Contract\\Services\\IWorkGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T18:49:33.397Z",
+              "WhenOpened": "2026-01-29T22:08:45.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T13:19:54.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T00:45:31.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\AuthorizeService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\AuthorizeService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\AuthorizeService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\AuthorizeService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAIA2wIMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:40:49.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\TaskService.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAewLEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:39:55.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTOs\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskDTO.cs",
+              "RelativeToolTip": "Contract\\DTOs\\TaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:57:05.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:57:21.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAuthorizeService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IAuthorizeService.cs",
+              "RelativeDocumentMoniker": "Contract\\Services\\IAuthorizeService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IAuthorizeService.cs",
+              "RelativeToolTip": "Contract\\Services\\IAuthorizeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:07:34.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-22T23:33:03.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\AuthorizeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthorizeController.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\AuthorizeController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthorizeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:40:34.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.Development.json",
+              "RelativeToolTip": "Presentation\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T16:41:59.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PasswordResetService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\PasswordResetService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\PasswordResetService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\PasswordResetService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\PasswordResetService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T16:40:49.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T17:52:09.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PerformanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\PerformanceController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PerformanceController.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\PerformanceController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PerformanceController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:48:14.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PerformancePointDTo.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\PerformancePointDTo.cs",
+              "RelativeDocumentMoniker": "Contract\\DTOs\\PerformancePointDTo.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\PerformancePointDTo.cs",
+              "RelativeToolTip": "Contract\\DTOs\\PerformancePointDTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:48:43.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaskAttachmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskAttachmentController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\TaskAttachmentController.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskAttachmentController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\TaskAttachmentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T10:27:29.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskAttachmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskAttachmentService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\TaskAttachmentService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskAttachmentService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\TaskAttachmentService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAASwFcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T08:55:59.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\INotificationService.cs",
               "RelativeDocumentMoniker": "Contract\\Services\\INotificationService.cs",
@@ -305,7 +589,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
+              "Title": "CurrentSituation.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\CurrentSituation.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CurrentSituation.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\CurrentSituation.cs",
+              "RelativeToolTip": "Domain\\Enums\\CurrentSituation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T18:49:33.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\DifficultyLevel.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Enums\\DifficultyLevel.cs",
+              "RelativeToolTip": "Domain\\Enums\\DifficultyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T18:51:53.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ITaksService.cs",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\ITaksService.cs",
+              "RelativeDocumentMoniker": "Contract\\Services\\ITaksService.cs",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\ITaksService.cs",
+              "RelativeToolTip": "Contract\\Services\\ITaksService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T18:16:38.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "TaskActionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskActionDTO.cs",
               "RelativeDocumentMoniker": "Contract\\DTOs\\TaskActionDTO.cs",
@@ -313,12 +633,11 @@
               "RelativeToolTip": "Contract\\DTOs\\TaskActionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T10:24:59.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T10:24:59.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 31,
               "Title": "PerformanceService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\PerformanceService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\PerformanceService.cs",
@@ -326,12 +645,11 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\PerformanceService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:02:28.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T09:02:28.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\RoleService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\RoleService.cs",
@@ -339,142 +657,11 @@
               "RelativeToolTip": "ApplicationLayer\\Services\\RoleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T10:18:49.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T10:18:49.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PasswordResetService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\PasswordResetService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\PasswordResetService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\PasswordResetService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\PasswordResetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:40:49.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TaskAttachmentService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskAttachmentService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\TaskAttachmentService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TaskAttachmentService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\TaskAttachmentService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowFcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T08:55:59.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20260124095609_FixBUg.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Migrations\\20260124095609_FixBUg.cs",
-              "RelativeDocumentMoniker": "Persistence\\Migrations\\20260124095609_FixBUg.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Migrations\\20260124095609_FixBUg.cs",
-              "RelativeToolTip": "Persistence\\Migrations\\20260124095609_FixBUg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:56:09.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TaskDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTOs\\TaskDTO.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskDTO.cs",
-              "RelativeToolTip": "Contract\\DTOs\\TaskDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:57:05.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\NotificationController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:52:09.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PerformanceController.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\PerformanceController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\PerformanceController.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\PerformanceController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\PerformanceController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:48:14.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TaskAttachmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskAttachmentController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\TaskAttachmentController.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\TaskAttachmentController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\TaskAttachmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T10:27:29.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T00:45:31.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CustomProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Profiles\\CustomProfile.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Profiles\\CustomProfile.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Profiles\\CustomProfile.cs",
-              "RelativeToolTip": "ApplicationLayer\\Profiles\\CustomProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:55:06.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PerformancePointDTo.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\PerformancePointDTo.cs",
-              "RelativeDocumentMoniker": "Contract\\DTOs\\PerformancePointDTo.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\PerformancePointDTo.cs",
-              "RelativeToolTip": "Contract\\DTOs\\PerformancePointDTo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:48:43.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "IGenericRepositories.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Repositories\\IGenericRepositories.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\IGenericRepositories.cs",
@@ -482,12 +669,11 @@
               "RelativeToolTip": "Domain\\Repositories\\IGenericRepositories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T09:02:32.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T09:02:32.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "PerformancePoint.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\PerformancePoint.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PerformancePoint.cs",
@@ -495,12 +681,11 @@
               "RelativeToolTip": "Domain\\Entities\\PerformancePoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T00:45:48.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T00:45:48.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\BaseEntity.cs",
@@ -512,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 36,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Notification.cs",
@@ -520,12 +705,11 @@
               "RelativeToolTip": "Domain\\Entities\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:58:48.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T16:58:48.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "TaskAttachment.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskAttachment.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TaskAttachment.cs",
@@ -537,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "TaskComment.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskComment.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TaskComment.cs",
@@ -549,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "TaskCommentMention.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskCommentMention.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TaskCommentMention.cs",
@@ -561,19 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskItem.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskItem.cs",
-              "RelativeToolTip": "Domain\\Entities\\TaskItem.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:57:21.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "TaskTransaction.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\TaskTransaction.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TaskTransaction.cs",
@@ -585,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "PasswordResetOTP.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Entities\\PasswordResetOTP.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\PasswordResetOTP.cs",
@@ -597,31 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAADwv0cAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:44:58.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AuthorizeService.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\AuthorizeService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\AuthorizeService.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\AuthorizeService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\AuthorizeService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwEgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:40:49.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "FileDTO.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\FileDTO.cs",
               "RelativeDocumentMoniker": "Contract\\DTOs\\FileDTO.cs",
@@ -633,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "MinioFileStorageService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\MinioFileStorageService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\MinioFileStorageService.cs",
@@ -646,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\GenericRepository.cs",
@@ -658,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "ITaskAttachmentService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\ITaskAttachmentService.cs",
               "RelativeDocumentMoniker": "Contract\\Services\\ITaskAttachmentService.cs",
@@ -670,19 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.json",
-              "RelativeToolTip": "Presentation\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-22T23:33:03.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "IFileStorageService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IFileStorageService.cs",
               "RelativeDocumentMoniker": "Contract\\Services\\IFileStorageService.cs",
@@ -694,32 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AuthorizeController.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\AuthorizeController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthorizeController.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Controllers\\AuthorizeController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\AuthorizeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAArwC0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T16:40:34.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Presentation\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\appsettings.Development.json",
-              "RelativeToolTip": "Presentation\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T16:41:59.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "UserIdProvider.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Hubs\\UserIdProvider.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Hubs\\UserIdProvider.cs",
@@ -731,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "TokenHandler.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Services\\TokenHandler.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\TokenHandler.cs",
@@ -743,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\ApplicationLayer\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Hubs\\NotificationHub.cs",
@@ -755,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "INotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Domain\\Repositories\\INotificationRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\INotificationRepository.cs",
@@ -767,19 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "NotificationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Repositories\\NotificationRepository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\NotificationRepository.cs",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\TMS\\Persistence\\Repositories\\NotificationRepository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\NotificationRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:03:50.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "TaskCommentDTO.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskCommentDTO.cs",
               "RelativeDocumentMoniker": "Contract\\DTOs\\TaskCommentDTO.cs",
@@ -791,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "TaskCommentMentionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\DTOs\\TaskCommentMentionDTO.cs",
               "RelativeDocumentMoniker": "Contract\\DTOs\\TaskCommentMentionDTO.cs",
@@ -803,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "IPasswordResetService.cs",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\TMS\\Contract\\Services\\IPasswordResetService.cs",
               "RelativeDocumentMoniker": "Contract\\Services\\IPasswordResetService.cs",

@@ -159,3 +159,16 @@ Error Number:547,State:0,Class:16
 [2026-01-24 03:51:33] [INF] Retrieved TaskItem with ID: 15
 [2026-01-24 03:51:34] [INF] Retrieved TaskItem with ID: 13
 [2026-01-24 03:51:35] [INF] Retrieved TaskItem with ID: 11
+[2026-01-24 06:06:57] [INF] User Login in: licabbarov1@gmail.com
+[2026-01-24 06:06:57] [INF] JWT token yaradıldı: licabbarov1@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyOGZlNmNjNS0zNDNiLTQzOTMtOTJkNi01OTFkN2FhNzJkMDMiLCJ1bmlxdWVfbmFtZSI6ImxpY2FiYmFyb3YxIiwiZW1haWwiOiJsaWNhYmJhcm92MUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NjkyNjM2MTcsImV4cCI6MTc2OTI2NzIxNywiaWF0IjoxNzY5MjYzNjE3LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9._W5213M1Z80kKX63zRV5RR2dHSxKQnCz_QAbuT5xobM
+[2026-01-24 06:10:07] [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2026-01-24 06:10:07] [INF] Added TaskItem with ID: 21
+[2026-01-24 06:10:07] [INF] MongoDB Test Log: Added entity at "2026-01-24T14:10:07.9165166Z"
+[2026-01-24 06:50:17] [INF] Added TaskItem with ID: 22
+[2026-01-24 06:50:17] [INF] MongoDB Test Log: Added entity at "2026-01-24T14:50:17.7064718Z"
+[2026-01-24 06:52:20] [INF] User Login in: licabbarov1@gmail.com
+[2026-01-24 06:52:20] [INF] JWT token yaradıldı: licabbarov1@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyOGZlNmNjNS0zNDNiLTQzOTMtOTJkNi01OTFkN2FhNzJkMDMiLCJ1bmlxdWVfbmFtZSI6ImxpY2FiYmFyb3YxIiwiZW1haWwiOiJsaWNhYmJhcm92MUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NjkyNjYzNDAsImV4cCI6MTc2OTI2OTk0MCwiaWF0IjoxNzY5MjY2MzQwLCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.is6_8wPYUNWybvsIvvGrH9LhbohfBSCVJAcIkTZtSAE
+[2026-01-24 06:53:39] [INF] Added TaskItem with ID: 23
+[2026-01-24 06:53:39] [INF] MongoDB Test Log: Added entity at "2026-01-24T14:53:39.6558354Z"
+[2026-01-24 07:25:05] [INF] User Login in: licabbarov1@gmail.com
+[2026-01-24 07:25:05] [INF] JWT token yaradıldı: licabbarov1@gmail.com, eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyOGZlNmNjNS0zNDNiLTQzOTMtOTJkNi01OTFkN2FhNzJkMDMiLCJ1bmlxdWVfbmFtZSI6ImxpY2FiYmFyb3YxIiwiZW1haWwiOiJsaWNhYmJhcm92MUBnbWFpbC5jb20iLCJyb2xlIjoiRW1wbG95ZWUiLCJuYmYiOjE3NjkyNjgzMDUsImV4cCI6MTc2OTI3MTkwNSwiaWF0IjoxNzY5MjY4MzA1LCJpc3MiOiJUYXNrTWFuYWdlciIsImF1ZCI6IlRhc2tNYW5hYWdlciJ9.d0_JRbFPaq6TuWAj-zzHi7eAQEqeEmpnDiFNE3GlYTc

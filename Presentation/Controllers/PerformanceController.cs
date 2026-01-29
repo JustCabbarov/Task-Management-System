@@ -2,6 +2,7 @@
 using Contract.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Presentation.Controllers
 {
@@ -16,9 +17,10 @@ namespace Presentation.Controllers
             _performanceService = performanceService;
         }
 
-        [HttpGet("GetPerformanceReport/{userId}")]
-        public async Task<IActionResult> GetPerformanceReport(string userId)
+        [HttpGet("GetPerformanceReport")]
+        public async Task<IActionResult> GetPerformanceReport()
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var report = await _performanceService.GetTotalPointsAsync(userId);
             return Ok(report);
         }

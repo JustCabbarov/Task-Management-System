@@ -32,7 +32,28 @@ namespace Application.Profiles
                     ? src.TaskComments.Select(c => c.Id).ToList()
                     : null));
             CreateMap<TaskComment, TaskCommentDTO>().ReverseMap();
-           
+            CreateMap<WorkGroup, WorkGroupDTO>()
+              .ForMember(dest => dest.UserIds, opt => opt.MapFrom(src => src.Users.Select(u => u.Id).ToList()))
+              .ForMember(dest => dest.TaskIds, opt => opt.MapFrom(src => src.Tasks.Select(t => new TaskDTO
+              {
+                  Id = t.Id,
+                  Title = t.Title,
+                  Description = t.Description,
+                  AssignedToUserId = t.AssignedToUserId,
+                  CreatedByUserId = t.CreatedByUserId,
+                  Deadline = t.Deadline,
+                  Status = t.Status,
+                  Difficulty = t.Difficulty,
+                  
+              })))
+              .ForMember(dest => dest.LeaderId, opt => opt.MapFrom(src => src.LeaderId));
+
+            // DTO -> Entity
+            CreateMap<WorkGroupDTO, WorkGroup>()
+                .ForMember(dest => dest.Users, opt => opt.Ignore()) // Users collection-u manual olaraq service-də handle edirik
+                .ForMember(dest => dest.Tasks, opt => opt.Ignore()) // Tasks collection-u manual handle
+                .ForMember(dest => dest.LeaderId, opt => opt.MapFrom(src => src.LeaderId));
+
         }
         
     }

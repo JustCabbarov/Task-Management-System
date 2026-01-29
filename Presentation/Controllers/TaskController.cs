@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace Presentation.Controllers
@@ -91,8 +92,9 @@ namespace Presentation.Controllers
         }
         [Authorize]
         [HttpPost("AddFilesToTask/{taskId}")]
-        public async Task<IActionResult> AddFilesToTask(int taskId, [FromForm] List<IFormFile>? files, [FromForm] string userId)
+        public async Task<IActionResult> AddFilesToTask(int taskId, [FromForm] List<IFormFile>? files)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (files == null || files.Count == 0)
                 return BadRequest("Fayl göndərilməyib.");
 
@@ -136,41 +138,48 @@ namespace Presentation.Controllers
         }
         [Authorize]
         [HttpPost("AddComment")]
-        public async Task<IActionResult> AddComment(int taskId, string userId, string comment)
+        public async Task<IActionResult> AddComment(int taskId, string comment)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.AddComment(taskId, userId, comment);
             return Ok();
         }
         [Authorize]
         [HttpPost("AssignTask")]
-        public async Task<IActionResult> AssignTask(int taskId, string userId)
+        public async Task<IActionResult> AssignTask(int taskId)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.AssignTaskAsync(taskId, userId);
             return Ok();
         }
         [Authorize]
         [HttpPost("UnAssignTask")]
-        public async Task<IActionResult> UnAssignTask(int taskId, string userId)
+        public async Task<IActionResult> UnAssignTask(int taskId )
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.UnAssingTaskAsync(taskId, userId);
             return Ok();
         }
 
         [Authorize]
         [HttpPost("AcceptTask")]
-        public async Task<IActionResult> AcceptTask(int taskId, string userId)
+        public async Task<IActionResult> AcceptTask(int taskId )
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.AcceptTask(taskId, userId);
             return Ok();
 
 
         }
         [Authorize]
-        [HttpPost("RejectTask")]
-        public async Task<IActionResult> RejectTask(int taskId, string userId ,string reason)
+        [HttpPost("reject")]
+        public async Task<IActionResult> RejectTask(int taskId, string reason)
         {
-            await _taskService.RejectTask(taskId, userId,reason);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            await _taskService.RejectTask(taskId, userId, reason);
             return Ok();
         }
+
     }
 }

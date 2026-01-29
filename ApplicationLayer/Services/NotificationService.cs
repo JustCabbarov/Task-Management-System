@@ -110,4 +110,33 @@ public class NotificationService : INotificationService
         await _hub.Clients.User(task.userId).SendAsync("ReceiveNotification", message);
 
     }
+
+    public async Task NotifyUserAddedToWorkGroupAsync(string userId, string workGroupName)
+    {
+        var message = $"{workGroupName} iş qrupuna əlavə olundunuz";
+        var notification = new Notification
+        {
+            UserId = userId,
+            Message = message,
+            IsRead = false,
+            CreateAt = DateTime.UtcNow
+        };
+        await _repository.AddAsync(notification);
+        await _hub.Clients.User(userId)
+            .SendAsync("ReceiveNotification", message);
+    }
+    public async Task NotifyUserRemovedFromWorkGroupAsync(string userId, string workGroupName)
+    {
+        var message = $"{workGroupName} iş qrupundan çıxarıldınız";
+        var notification = new Notification
+        {
+            UserId = userId,
+            Message = message,
+            IsRead = false,
+            CreateAt = DateTime.UtcNow
+        };
+        await _repository.AddAsync(notification);
+        await _hub.Clients.User(userId)
+            .SendAsync("ReceiveNotification", message);
+    }
 }

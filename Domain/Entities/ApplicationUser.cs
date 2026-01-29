@@ -16,6 +16,8 @@ namespace Domain.Entities
         public ICollection<TaskComment> TaskComments { get; set; }
         public ICollection<TaskCommentMention> TaskCommentMentions { get; set; }
         public ICollection<Notification> Notifications { get; set; }
+        public int? WorkGroupId { get; set; }
+        public WorkGroup? WorkGroup { get; set; }
 
 
 

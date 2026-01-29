@@ -70,6 +70,7 @@ namespace Presentationn
             builder.Services.AddScoped<IFileStorageService, MinioFileStorageService>();
             builder.Services.AddScoped<ITaskAttachmentService, TaskAttachmentService>();
             builder.Services.AddScoped<IPerformanceService, PerformanceService>();
+            builder.Services.AddScoped<IWorkGroupService, WorkGroupService>();
 
             // ================= Exception Handlers =================
             builder.Services.AddExceptionHandler<NotFoundExceptionHandler>();
@@ -209,6 +210,20 @@ namespace Presentationn
             // ================= Build App =================
             var app = builder.Build();
 
+            using (var scope = app.Services.CreateScope())
+            {
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+                string[] roles = { "Admin", "Manager" ,"Employee" };
+
+                foreach (var role in roles)
+                {
+                    if (!await roleManager.RoleExistsAsync(role))
+                    {
+                        await roleManager.CreateAsync(new IdentityRole(role));
+                    }
+                }
+            }
             // ================= Pipeline =================
             if (app.Environment.IsDevelopment())
             {

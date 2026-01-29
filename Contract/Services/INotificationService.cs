@@ -18,6 +18,8 @@ namespace Contract.Services
             Task MarkReadAsync(int id);
             Task NotifyMentionsAsync(Dictionary<string, string> userMessages);
         Task AcceptTaskNotificationAsync(TaskActionDTO dto);
+        Task NotifyUserAddedToWorkGroupAsync(string userId, string workGroupName);
+        Task NotifyUserRemovedFromWorkGroupAsync(string userId, string workGroupName);
     }
 
 }

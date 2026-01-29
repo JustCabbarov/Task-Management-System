@@ -80,5 +80,15 @@ namespace Presentation.Controllers
             await _passwordResetService.SendOtpAsync(emailDTO);
             return Ok(new { Message = "Password reset OTP sent successfully" });
         }
+
+
+        [Authorize]
+        [HttpPost("AssignRole")]
+        public async Task<IActionResult> AssignRole([FromBody] string userId ,string role)
+        {
+            await _authorizeService.AssignRole(userId, role);
+            return Ok(new { Message = "Role assigned successfully" });
+        }
     }
 }
+

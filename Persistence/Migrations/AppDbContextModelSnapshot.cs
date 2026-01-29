@@ -78,6 +78,9 @@ namespace Persistence.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<int?>("WorkGroupId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -87,6 +90,8 @@ namespace Persistence.Migrations
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.HasIndex("WorkGroupId");
 
                     b.ToTable("AspNetUsers", (string)null);
                 });
@@ -316,6 +321,9 @@ namespace Persistence.Migrations
                     b.Property<string>("AssignedToUserId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<int?>("AssignedWorkGroupId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime2");
 
@@ -352,6 +360,8 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AssignedToUserId");
+
+                    b.HasIndex("AssignedWorkGroupId");
 
                     b.HasIndex("CreatedByUserId");
 
@@ -401,6 +411,38 @@ namespace Persistence.Migrations
                     b.HasIndex("ToUserId");
 
                     b.ToTable("TaskTransactions");
+                });
+
+            modelBuilder.Entity("Domain.Entities.WorkGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LeaderId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LeaderId");
+
+                    b.ToTable("WorkGroup");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -536,6 +578,16 @@ namespace Persistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.ApplicationUser", b =>
+                {
+                    b.HasOne("Domain.Entities.WorkGroup", "WorkGroup")
+                        .WithMany("Users")
+                        .HasForeignKey("WorkGroupId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("WorkGroup");
+                });
+
             modelBuilder.Entity("Domain.Entities.Notification", b =>
                 {
                     b.HasOne("Domain.Entities.ApplicationUser", "User")
@@ -625,6 +677,10 @@ namespace Persistence.Migrations
                         .HasForeignKey("AssignedToUserId")
                         .OnDelete(DeleteBehavior.Restrict);
 
+                    b.HasOne("Domain.Entities.WorkGroup", "AssignedWorkGroup")
+                        .WithMany("Tasks")
+                        .HasForeignKey("AssignedWorkGroupId");
+
                     b.HasOne("Domain.Entities.ApplicationUser", "CreatedByUser")
                         .WithMany("CreatedTasks")
                         .HasForeignKey("CreatedByUserId")
@@ -637,6 +693,8 @@ namespace Persistence.Migrations
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("AssignedToUser");
+
+                    b.Navigation("AssignedWorkGroup");
 
                     b.Navigation("CreatedByUser");
                 });
@@ -666,6 +724,17 @@ namespace Persistence.Migrations
                     b.Navigation("TaskItem");
 
                     b.Navigation("ToUser");
+                });
+
+            modelBuilder.Entity("Domain.Entities.WorkGroup", b =>
+                {
+                    b.HasOne("Domain.Entities.ApplicationUser", "Leader")
+                        .WithMany()
+                        .HasForeignKey("LeaderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Leader");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -744,6 +813,13 @@ namespace Persistence.Migrations
                     b.Navigation("Attachments");
 
                     b.Navigation("TaskComments");
+                });
+
+            modelBuilder.Entity("Domain.Entities.WorkGroup", b =>
+                {
+                    b.Navigation("Tasks");
+
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

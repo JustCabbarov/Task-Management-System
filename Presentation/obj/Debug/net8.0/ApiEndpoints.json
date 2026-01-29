@@ -11,6 +11,27 @@
   },
   {
     "ContainingType": "Presentation.Controllers.AuthorizeController",
+    "Method": "AssignRole",
+    "RelativePath": "api/Authorize/AssignRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.AuthorizeController",
     "Method": "Login",
     "RelativePath": "api/Authorize/login",
     "HttpMethod": "POST",
@@ -138,17 +159,11 @@
   {
     "ContainingType": "Presentation.Controllers.PerformanceController",
     "Method": "GetPerformanceReport",
-    "RelativePath": "api/Performance/GetPerformanceReport/{userId}",
+    "RelativePath": "api/Performance/GetPerformanceReport",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -162,11 +177,6 @@
       {
         "Name": "taskId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -183,11 +193,6 @@
       {
         "Name": "taskId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -215,11 +220,6 @@
         "Name": "files",
         "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -235,11 +235,6 @@
       {
         "Name": "taskId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -281,6 +276,11 @@
       {
         "Name": "Deadline",
         "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "WorkGroupId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -361,7 +361,7 @@
   {
     "ContainingType": "Presentation.Controllers.TaskController",
     "Method": "RejectTask",
-    "RelativePath": "api/Task/RejectTask",
+    "RelativePath": "api/Task/reject",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -369,11 +369,6 @@
       {
         "Name": "taskId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -395,11 +390,6 @@
       {
         "Name": "taskId",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -433,11 +423,6 @@
         "Name": "attachmentId",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -454,10 +439,147 @@
         "Name": "attachmentId",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "CreateWorkGroup",
+    "RelativePath": "api/WorkGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workgroupDto",
+        "Type": "Contract.DTOs.WorkGroupDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "GetAllWorkGroups",
+    "RelativePath": "api/WorkGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "GetWorkGroup",
+    "RelativePath": "api/WorkGroup/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "UpdateWorkGroup",
+    "RelativePath": "api/WorkGroup/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "workgroupDto",
+        "Type": "Contract.DTOs.WorkGroupDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "DeleteWorkGroup",
+    "RelativePath": "api/WorkGroup/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "AddUserToWorkGroup",
+    "RelativePath": "api/WorkGroup/{workGroupId}/AddUser/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
       },
       {
         "Name": "userId",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "RemoveUserFromWorkGroup",
+    "RelativePath": "api/WorkGroup/{workGroupId}/RemoveUser/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.WorkGroupController",
+    "Method": "AssignTaskToGroup",
+    "RelativePath": "api/WorkGroup/AssignTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "targetWorkGroupId",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

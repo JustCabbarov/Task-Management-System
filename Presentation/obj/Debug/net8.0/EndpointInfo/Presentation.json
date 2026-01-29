@@ -153,6 +153,46 @@
         }
       }
     },
+    "/api/Authorize/AssignRole": {
+      "post": {
+        "tags": [
+          "Authorize"
+        ],
+        "parameters": [
+          {
+            "name": "role",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Notifications": {
       "get": {
         "tags": [
@@ -188,20 +228,10 @@
         }
       }
     },
-    "/api/Performance/GetPerformanceReport/{userId}": {
+    "/api/Performance/GetPerformanceReport": {
       "get": {
         "tags": [
           "Performance"
-        ],
-        "parameters": [
-          {
-            "name": "userId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {
@@ -284,6 +314,10 @@
                     "type": "string",
                     "format": "date-time"
                   },
+                  "WorkGroupId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "AssignedToUserId": {
                     "type": "string"
                   },
@@ -333,6 +367,9 @@
                   "style": "form"
                 },
                 "Deadline": {
+                  "style": "form"
+                },
+                "WorkGroupId": {
                   "style": "form"
                 },
                 "AssignedToUserId": {
@@ -446,17 +483,11 @@
                       "type": "string",
                       "format": "binary"
                     }
-                  },
-                  "userId": {
-                    "type": "string"
                   }
                 }
               },
               "encoding": {
                 "files": {
-                  "style": "form"
-                },
-                "userId": {
                   "style": "form"
                 }
               }
@@ -520,13 +551,6 @@
             }
           },
           {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
             "name": "comment",
             "in": "query",
             "schema": {
@@ -554,13 +578,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -582,13 +599,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
             }
           }
         ],
@@ -612,13 +622,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -628,7 +631,7 @@
         }
       }
     },
-    "/api/Task/RejectTask": {
+    "/api/Task/reject": {
       "post": {
         "tags": [
           "Task"
@@ -640,13 +643,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
             }
           },
           {
@@ -678,13 +674,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -708,12 +697,222 @@
               "type": "integer",
               "format": "int32"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkGroup": {
+      "post": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkGroup/{id}": {
+      "get": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkGroupDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkGroup/{workGroupId}/AddUser/{userId}": {
+      "post": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "workGroupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
           },
           {
             "name": "userId",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkGroup/{workGroupId}/RemoveUser/{userId}": {
+      "post": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "workGroupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkGroup/AssignTask": {
+      "post": {
+        "tags": [
+          "WorkGroup"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "targetWorkGroupId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -867,6 +1066,11 @@
             "type": "string",
             "format": "date-time"
           },
+          "workGroupId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "assignedToUserId": {
             "type": "string",
             "nullable": true
@@ -892,6 +1096,39 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/FileDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkGroupDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "leaderId": {
+            "type": "string",
+            "nullable": true
+          },
+          "userIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "taskIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
             },
             "nullable": true
           }

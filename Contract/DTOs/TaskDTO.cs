@@ -16,6 +16,7 @@ namespace Contract.DTOs
         public DifficultyLevel Difficulty { get; set; }
        public CurrentSituation Status { get; set; }
         public DateTime Deadline { get; set; }
+        public int? WorkGroupId { get; set; }
         public string? AssignedToUserId { get; set; }
         public string CreatedByUserId { get; set; }
 

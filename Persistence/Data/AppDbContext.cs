@@ -122,7 +122,23 @@ namespace Persistence.Data
                       .HasForeignKey(p => p.UserId)
                       .OnDelete(DeleteBehavior.Cascade);
             });
+
+
+            // 1️⃣ WorkGroup → Users (member-lər)
+            modelBuilder.Entity<ApplicationUser>()
+                .HasOne(u => u.WorkGroup)
+                .WithMany(w => w.Users)
+                .HasForeignKey(u => u.WorkGroupId)
+                .OnDelete(DeleteBehavior.SetNull);
+
+            // 2️⃣ WorkGroup → Leader (1 leader)
+            modelBuilder.Entity<WorkGroup>()
+                .HasOne(w => w.Leader)
+                .WithMany() // Leader üçün collection YOXDUR
+                .HasForeignKey(w => w.LeaderId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
     }
 }
+
