@@ -38,9 +38,10 @@ namespace Presentationn
             builder.Services.AddControllers();
 
             // ================= DbContext =================
+        
+
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(
-                    builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection")));
 
             // ================= Serilog =================
             Log.Logger = new LoggerConfiguration()
@@ -214,7 +215,7 @@ namespace Presentationn
             {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-                string[] roles = { "Admin", "Manager" ,"Employee" };
+                string[] roles = { "Admin", "Manager", "Employee" };
 
                 foreach (var role in roles)
                 {
@@ -238,7 +239,7 @@ namespace Presentationn
             app.UseCors("ClientPermission");
             app.UseHttpsRedirection();
 
-            app.UseAuthentication(); 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gwvzRvJlBO8=",
+  "dgSpecHash": "LTbbspO97uY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Desktop\\TMS\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,8 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\minio\\7.0.0\\minio.7.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\serilog.aspnetcore\\10.0.0\\serilog.aspnetcore.10.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\serilog.extensions.hosting\\10.0.0\\serilog.extensions.hosting.10.0.0.nupkg.sha512",

@@ -56,7 +56,7 @@ namespace Presentation.Controllers
             }
             if (taskDto.AssignedToUserId != null)
             {
-            await _notificationService.NotifyTaskAssignedAsync(taskDto.AssignedToUserId, createdTask.Title, createdTask.Id);
+                await _notificationService.NotifyTaskAssignedAsync(taskDto.AssignedToUserId, createdTask.Title, createdTask.Id);
 
             }
 
@@ -154,7 +154,7 @@ namespace Presentation.Controllers
         }
         [Authorize]
         [HttpPost("UnAssignTask")]
-        public async Task<IActionResult> UnAssignTask(int taskId )
+        public async Task<IActionResult> UnAssignTask(int taskId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.UnAssingTaskAsync(taskId, userId);
@@ -163,7 +163,7 @@ namespace Presentation.Controllers
 
         [Authorize]
         [HttpPost("AcceptTask")]
-        public async Task<IActionResult> AcceptTask(int taskId )
+        public async Task<IActionResult> AcceptTask(int taskId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             await _taskService.AcceptTask(taskId, userId);
@@ -180,6 +180,21 @@ namespace Presentation.Controllers
             await _taskService.RejectTask(taskId, userId, reason);
             return Ok();
         }
+        [Authorize]
+        [HttpPost("FinishTask")]
+        public async Task<IActionResult> FinishTask(int taskId)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            await _taskService.FinishTask(taskId, userId);
+            return Ok();
+        }
+        [Authorize]
+        [HttpPost("ReopenTask")]
+        public async Task<IActionResult> ReturnedForRevision(int taskId, string userId, string reason)
+        {
 
+            await _taskService.ReturnedForRevision(taskId, userId, reason);
+            return Ok();
+        }
     }
 }

@@ -21,6 +21,7 @@ namespace Persistence.Data
       public   DbSet<PerformancePoint> PerformancePoints { get; set; }
       public   DbSet<Notification> Notifications { get; set; }
       public DbSet<PasswordResetOTP> PasswordResetOtps { get; set; }
+        public DbSet<WorkGroup> WorkGroups { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

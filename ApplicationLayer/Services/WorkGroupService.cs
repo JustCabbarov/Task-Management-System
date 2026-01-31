@@ -112,7 +112,7 @@ namespace Application.Services
                 WorkGroupId = targetWorkGroupId,
                 CreatedByUserId = task.CreatedByUserId,
                 Deadline = task.Deadline,
-                Status = CurrentSituation.Assigned,
+                Status = CurrentSituation.Pending,
                 Difficulty = task.Difficulty,
                 TaskCommentId = task.TaskCommentId
             };

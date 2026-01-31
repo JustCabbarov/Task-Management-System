@@ -20,6 +20,9 @@ namespace Contract.Services
         Task AcceptTaskNotificationAsync(TaskActionDTO dto);
         Task NotifyUserAddedToWorkGroupAsync(string userId, string workGroupName);
         Task NotifyUserRemovedFromWorkGroupAsync(string userId, string workGroupName);
+
+        Task ReturnedForRevision(string userId,string taskTitle,int taskId);
+        Task FinishTaskNotificationAsync(string userId, string taskTitle, int taskId);
     }
 
 }
